@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<imx:IMX xmlns:imx="http://com.informatica.imx" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" serializationSpecVersion="11.0" crcEnabled="1" xmlns:common1="http://com.informatica.workflow.feature.metadata.common/0" versioncommon1="0.1.1" xmlns:common2="http://com.informatica.ds.app.feature.metadata.common/0" versioncommon2="0.0.1" xmlns:types="http://com.informatica.metadata.common.types/2" versiontypes="2.4.0" xmlns:workflow="http://com.informatica.metadata.common.workflow/1" versionworkflow="1.4.1" xmlns:project="http://com.informatica.metadata.common.project/2" versionproject="2.2.0" xmlns:binding="http://com.informatica.metadata.common.binding/1" versionbinding="1.12.0" xmlns:description="http://com.informatica.metadata.common.description/2" versiondescription="2.1.0" xmlns:command="http://com.informatica.metadata.common.task.command/1" versioncommand="1.0.0" xmlns:common3="http://com.informatica.ds.app.metadata.common/0" versioncommon3="0.0.1" xmlns:core="http://com.informatica.metadata.common.core/2" versioncore="2.1.1" xmlns:task="http://com.informatica.metadata.common.task/1" versiontask="1.3.0" xmlns:common="http://com.informatica.ds.app.spec.metadata.common/0" versioncommon="0.6.1" xmlns:parameter="http://com.informatica.metadata.common.parameter/9" versionparameter="9.8.1" xmlns:property="http://com.informatica.metadata.common.property/1" versionproperty="1.2.0" xmlns:typesystem="http://com.informatica.metadata.common.typesystem/2" versiontypesystem="2.2.0" xmlns:basic="http://com.informatica.metadata.common.task.basic/1" versionbasic="1.4.0" xmlns:value="http://com.informatica.metadata.common.value/1" versionvalue="1.1.0" xsi:schemaLocation="http://com.informatica.imx IMX.xsd http://com.informatica.workflow.feature.metadata.common/0 com.informatica.workflow.feature.metadata.common.xsd http://com.informatica.ds.app.feature.metadata.common/0 com.informatica.ds.app.feature.metadata.common.xsd http://com.informatica.metadata.common.types/2 com.informatica.metadata.common.types.xsd http://com.informatica.metadata.common.workflow/1 com.informatica.metadata.common.workflow.xsd http://com.informatica.metadata.common.project/2 com.informatica.metadata.common.project.xsd http://com.informatica.metadata.common.binding/1 com.informatica.metadata.common.binding.xsd http://com.informatica.metadata.common.description/2 com.informatica.metadata.common.description.xsd http://com.informatica.metadata.common.task.command/1 com.informatica.metadata.common.task.command.xsd http://com.informatica.ds.app.metadata.common/0 com.informatica.ds.app.metadata.common.xsd http://com.informatica.metadata.common.core/2 com.informatica.metadata.common.core.xsd http://com.informatica.metadata.common.task/1 com.informatica.metadata.common.task.xsd http://com.informatica.ds.app.spec.metadata.common/0 com.informatica.ds.app.spec.metadata.common.xsd http://com.informatica.metadata.common.parameter/9 com.informatica.metadata.common.parameter.xsd http://com.informatica.metadata.common.property/1 com.informatica.metadata.common.property.xsd http://com.informatica.metadata.common.typesystem/2 com.informatica.metadata.common.typesystem.xsd http://com.informatica.metadata.common.task.basic/1 com.informatica.metadata.common.task.basic.xsd http://com.informatica.metadata.common.value/1 com.informatica.metadata.common.value.xsd">
+<project:Project imx:id="U:3G0_SOM8EeirEwqoE7jR0Q" name="PaulTestingEJ">
+<annotations>
+<Annotation imx:id="ID_1" xsi:type="description:Description"/>
+</annotations>
+<contents>
+<IObject imx:id="U:gDP_lONFEeiCdrmWbAREhQ" xsi:type="common:ApplicationSpec" name="Application_w_Test01">
+<imx:annotations>
+<imx:IGenericAnnotations>
+<com.informatica.tools.model key1="%28com.informatica.metadata.common.description.Description%29annotations%2Fbody" value1="*"/>
+</imx:IGenericAnnotations>
+</imx:annotations>
+<features>
+<Feature imx:id="U:gDP_leNFEeiCdrmWbAREhQ" xsi:type="common1:WorkflowFeature" name="w_Test01" workflow="U:0cEhl-M_EeiCdrmWbAREhQ">
+<WorkflowFeatureconfig imx:id="ID_2" xsi:type="common1:WorkflowFeatureConfig"/>
+</Feature>
+</features>
+</IObject>
+<IObject imx:id="U:0cEhl-M_EeiCdrmWbAREhQ" xsi:type="workflow:Workflow" firstInstance="U:0cEhmOM_EeiCdrmWbAREhQ" name="w_Test01">
+<imx:annotations>
+<imx:IGenericAnnotations>
+<com.informatica.tools.model key1="%28com.informatica.metadata.common.description.Description%29annotations%2Fbody" value1="*"/>
+</imx:IGenericAnnotations>
+</imx:annotations>
+<characteristics>
+<Characteristic imx:id="ID_3" xsi:type="workflow:RuntimeWorkflowCharacteristic" loglevel="INFO"/>
+</characteristics>
+<parameters>
+<UserDefinedParameter imx:id="U:r21_MONEEeiCdrmWbAREhQ" xsi:type="parameter:UserDefinedParameter" name="User" precision="1000" typeinfo="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring">
+<defaultValue imx:id="ID_4" xsi:type="parameter:StringParameterValue" valueLiteral="infa"/>
+</UserDefinedParameter>
+<UserDefinedParameter imx:id="U:r21_MeNEEeiCdrmWbAREhQ" xsi:type="parameter:UserDefinedParameter" name="Host" precision="1000" typeinfo="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring">
+<defaultValue imx:id="ID_5" xsi:type="parameter:StringParameterValue" valueLiteral="infa1021cdh513.dynvpn.de+"/>
+</UserDefinedParameter>
+<UserDefinedParameter imx:id="U:r21_MuNEEeiCdrmWbAREhQ" xsi:type="parameter:UserDefinedParameter" name="SourceDir" precision="1000" typeinfo="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring">
+<defaultValue imx:id="ID_6" xsi:type="parameter:StringParameterValue" valueLiteral="%2Fapps%2Finfa%2Fscp%2Fsource%2F+"/>
+</UserDefinedParameter>
+<UserDefinedParameter imx:id="U:r21_M-NEEeiCdrmWbAREhQ" xsi:type="parameter:UserDefinedParameter" name="TargetDir" precision="1000" typeinfo="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring">
+<defaultValue imx:id="ID_7" xsi:type="parameter:StringParameterValue" valueLiteral="%2Fapps%2Finfa%2Fscp%2Ftarget%2F"/>
+</UserDefinedParameter>
+<UserDefinedParameter imx:id="U:0aVQ5uNJEeiCdrmWbAREhQ" xsi:type="parameter:UserDefinedParameter" name="TriggerFile" precision="1000" typeinfo="smd:com.informatica.metadata.seed.platform.Platform.typesystem%2Fstring">
+<defaultValue imx:id="ID_8" xsi:type="parameter:StringParameterValue" valueLiteral="%2Fapps%2Finfa%2Fscp%2FTRIGGER"/>
+</UserDefinedParameter>
+</parameters>
+<taskInstances>
+<TaskInstance imx:id="U:0cEhmOM_EeiCdrmWbAREhQ" xsi:type="workflow:TaskInstance" name="Start_Event" task="U:0cEhm-M_EeiCdrmWbAREhQ">
+<anonymousTask imx:id="U:0cEhm-M_EeiCdrmWbAREhQ" xsi:type="basic:StartTask" name="Start_Event"/>
+<outgoingSequenceFlows>
+<SequenceFlow imx:id="U:r22mYONEEeiCdrmWbAREhQ" xsi:type="workflow:SequenceFlow" fromInstance="U:0cEhmOM_EeiCdrmWbAREhQ" name="Start_Event_to_Command_Task" toInstance="U:r21_NONEEeiCdrmWbAREhQ"/>
+</outgoingSequenceFlows>
+</TaskInstance>
+<TaskInstance imx:id="U:0cEhmeM_EeiCdrmWbAREhQ" xsi:type="workflow:TaskInstance" incomingSequenceFlows="U:r21_NuNEEeiCdrmWbAREhQ" name="End_Event" task="U:0cEhmuM_EeiCdrmWbAREhQ">
+<anonymousTask imx:id="U:0cEhmuM_EeiCdrmWbAREhQ" xsi:type="basic:EndTask" name="End_Event"/>
+</TaskInstance>
+<TaskInstance imx:id="U:r21_NONEEeiCdrmWbAREhQ" xsi:type="workflow:TaskInstance" incomingSequenceFlows="U:r22mYONEEeiCdrmWbAREhQ" name="Command_Task" task="U:r21_NeNEEeiCdrmWbAREhQ">
+<anonymousTask imx:id="U:r21_NeNEEeiCdrmWbAREhQ" xsi:type="command:CommandTask" name="Command_Task" command="cd+%2Fapps%2Finfa%2Fscp%3B+.%2FscpFile.sh+%24%7Bpar:User%7D+%24%7Bpar:Host%7D+%24%7Bpar:SourceDir%7D+%24%7Bpar:TargetDir%7D+%24%7Bpar:TriggerFile%7D">
+<commandTaskConfig imx:id="U:r22mXONEEeiCdrmWbAREhQ" xsi:type="command:CommandTaskConfig">
+<stdErrorLength imx:id="U:r22mXeNEEeiCdrmWbAREhQ" xsi:type="property:IntegerBoxedReceiverObject" value="1024"/>
+<stdOutLength imx:id="U:r22mXuNEEeiCdrmWbAREhQ" xsi:type="property:IntegerBoxedReceiverObject" value="1024"/>
+<workingDirectory imx:id="U:r22mX-NEEeiCdrmWbAREhQ" xsi:type="property:StringBoxedReceiverObject"/>
+</commandTaskConfig>
+</anonymousTask>
+<inputBindings>
+<InputBinding imx:id="ID_9" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mW-NEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_10" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_11" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mWuNEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_12" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_13" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mWeNEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_14" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_15" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mWONEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_16" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_17" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mV-NEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="Host" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:Host%7D"/>
+<value imx:id="ID_18" xsi:type="value:RollupParameterValue" parameter="U:r21_MeNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_19" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mVuNEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_20" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_21" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mVeNEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="Host" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:Host%7D"/>
+<value imx:id="ID_22" xsi:type="value:RollupParameterValue" parameter="U:r21_MeNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_23" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mVONEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_24" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_25" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mU-NEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="Host" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:Host%7D"/>
+<value imx:id="ID_26" xsi:type="value:RollupParameterValue" parameter="U:r21_MeNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_27" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mUuNEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="SourceDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:SourceDir%7D"/>
+<value imx:id="ID_28" xsi:type="value:RollupParameterValue" parameter="U:r21_MuNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_29" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mUeNEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_30" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_31" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mUONEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="Host" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:Host%7D"/>
+<value imx:id="ID_32" xsi:type="value:RollupParameterValue" parameter="U:r21_MeNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_33" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mT-NEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="SourceDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:SourceDir%7D"/>
+<value imx:id="ID_34" xsi:type="value:RollupParameterValue" parameter="U:r21_MuNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_35" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mTuNEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_36" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_37" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mTeNEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="Host" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:Host%7D"/>
+<value imx:id="ID_38" xsi:type="value:RollupParameterValue" parameter="U:r21_MeNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_39" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mTONEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="SourceDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:SourceDir%7D"/>
+<value imx:id="ID_40" xsi:type="value:RollupParameterValue" parameter="U:r21_MuNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_41" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mS-NEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="TargetDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:TargetDir%7D"/>
+<value imx:id="ID_42" xsi:type="value:RollupParameterValue" parameter="U:r21_M-NEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_43" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mSuNEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_44" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_45" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mSeNEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="Host" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:Host%7D"/>
+<value imx:id="ID_46" xsi:type="value:RollupParameterValue" parameter="U:r21_MeNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_47" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mSONEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="SourceDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:SourceDir%7D"/>
+<value imx:id="ID_48" xsi:type="value:RollupParameterValue" parameter="U:r21_MuNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_49" xsi:type="binding:InputBinding">
+<input imx:id="U:r22mR-NEEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="TargetDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:TargetDir%7D"/>
+<value imx:id="ID_50" xsi:type="value:RollupParameterValue" parameter="U:r21_M-NEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_51" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ9-NJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_52" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_53" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ9uNJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="Host" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:Host%7D"/>
+<value imx:id="ID_54" xsi:type="value:RollupParameterValue" parameter="U:r21_MeNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_55" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ9eNJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="SourceDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:SourceDir%7D"/>
+<value imx:id="ID_56" xsi:type="value:RollupParameterValue" parameter="U:r21_MuNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_57" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ9ONJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="TargetDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:TargetDir%7D"/>
+<value imx:id="ID_58" xsi:type="value:RollupParameterValue" parameter="U:r21_M-NEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_59" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ8-NJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_60" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_61" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ8uNJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="Host" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:Host%7D"/>
+<value imx:id="ID_62" xsi:type="value:RollupParameterValue" parameter="U:r21_MeNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_63" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ8eNJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="SourceDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:SourceDir%7D"/>
+<value imx:id="ID_64" xsi:type="value:RollupParameterValue" parameter="U:r21_MuNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_65" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ8ONJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="TargetDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:TargetDir%7D"/>
+<value imx:id="ID_66" xsi:type="value:RollupParameterValue" parameter="U:r21_M-NEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_67" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ7-NJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_68" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_69" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ7uNJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="Host" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:Host%7D"/>
+<value imx:id="ID_70" xsi:type="value:RollupParameterValue" parameter="U:r21_MeNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_71" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ7eNJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="SourceDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:SourceDir%7D"/>
+<value imx:id="ID_72" xsi:type="value:RollupParameterValue" parameter="U:r21_MuNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_73" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ7ONJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="TargetDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:TargetDir%7D"/>
+<value imx:id="ID_74" xsi:type="value:RollupParameterValue" parameter="U:r21_M-NEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_75" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ6-NJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="User" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:User%7D"/>
+<value imx:id="ID_76" xsi:type="value:RollupParameterValue" parameter="U:r21_MONEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_77" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ6uNJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="Host" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:Host%7D"/>
+<value imx:id="ID_78" xsi:type="value:RollupParameterValue" parameter="U:r21_MeNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_79" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ6eNJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="SourceDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:SourceDir%7D"/>
+<value imx:id="ID_80" xsi:type="value:RollupParameterValue" parameter="U:r21_MuNEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_81" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ6ONJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="TargetDir" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:TargetDir%7D"/>
+<value imx:id="ID_82" xsi:type="value:RollupParameterValue" parameter="U:r21_M-NEEeiCdrmWbAREhQ"/>
+</InputBinding>
+<InputBinding imx:id="ID_83" xsi:type="binding:InputBinding">
+<input imx:id="U:0aVQ5-NJEeiCdrmWbAREhQ" xsi:type="binding:TokenizedTaskInput" name="TriggerFile" type="smd:com.informatica.metadata.seed.variable.VariableTypeSeed.typesystem%2Fstring" token="%24%7Bpar:TriggerFile%7D"/>
+<value imx:id="ID_84" xsi:type="value:RollupParameterValue" parameter="U:0aVQ5uNJEeiCdrmWbAREhQ"/>
+</InputBinding>
+</inputBindings>
+<outgoingSequenceFlows>
+<SequenceFlow imx:id="U:r21_NuNEEeiCdrmWbAREhQ" xsi:type="workflow:SequenceFlow" fromInstance="U:r21_NONEEeiCdrmWbAREhQ" name="Command_Task_to_End_Event" toInstance="U:0cEhmeM_EeiCdrmWbAREhQ"/>
+</outgoingSequenceFlows>
+</TaskInstance>
+</taskInstances>
+</IObject>
+</contents>
+</project:Project>
+<project:Project imx:id="U:bYY0ieUxEeiIZgIkKm3bug" name="Application_w_Test01">
+<imx:annotations>
+<imx:IGenericAnnotations>
+<com.informatica.ds.app.metadata.DeploymentAnnotation key1="PROJECT_TYPE" value1="DEPLOYMENT_UNIT"/>
+</imx:IGenericAnnotations>
+</imx:annotations>
+<contents>
+<IObject imx:id="U:bYY0iuUxEeiIZgIkKm3bug" xsi:type="common3:Application" name="Application_w_Test01" spec="U:gDP_lONFEeiCdrmWbAREhQ">
+<imx:annotations>
+<imx:IGenericAnnotations>
+<com.informatica.ds.app.metadata.DeploymentAnnotation key1="VALIDATION_TYPE" value1="SKIP"/>
+</imx:IGenericAnnotations>
+</imx:annotations>
+<attributes>
+<Attribute imx:id="U:bYY0i-UxEeiIZgIkKm3bug" xsi:type="common3:Attribute" name="Unique+Idenitifier" value="U:gDP_lONFEeiCdrmWbAREhQ"/>
+<Attribute imx:id="U:bYY0jOUxEeiIZgIkKm3bug" xsi:type="common3:Attribute" name="Creation+Domain" value="infa1021cdh513.dynvpn.de:6005"/>
+<Attribute imx:id="U:bYY0jeUxEeiIZgIkKm3bug" xsi:type="common3:Attribute" name="Creation+Project+Path" value="PaulTestingEJ"/>
+<Attribute imx:id="U:bYY0juUxEeiIZgIkKm3bug" xsi:type="common3:Attribute" name="Creation+Date" value="2018-11-08T12:00:28%2B0100"/>
+<Attribute imx:id="U:bYY0j-UxEeiIZgIkKm3bug" xsi:type="common3:Attribute" name="Created+By" value="Administrator"/>
+<Attribute imx:id="U:bYY0kOUxEeiIZgIkKm3bug" xsi:type="common3:Attribute" name="Last+Modification+Date" value="2018-11-08T12:00:28%2B0100"/>
+<Attribute imx:id="U:bYY0keUxEeiIZgIkKm3bug" xsi:type="common3:Attribute" name="Last+Modified+By" value="Administrator"/>
+</attributes>
+</IObject>
+</contents>
+</project:Project>
+<imx:crc value="1113524538"/>
+</imx:IMX>
